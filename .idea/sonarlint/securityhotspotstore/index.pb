@@ -1,6 +1,4 @@
 
-|
-Ldoctor-service/src/main/java/com/SPYDER/Clinic/DoctorServiceApplication.java,7\0\700cc1d9f94af8c7f008ca8efc9874e1dd78b3b0
 ~
 Npatient-service/src/main/java/com/SPYDER/Clinic/PatientServiceApplication.java,d\f\dfe8e2ad4c648c91e5f1f628f6c6047bdfa08d9b
 G
@@ -17,9 +15,3 @@ z
 Jdoctor-service/src/main/java/com/SPYDER/Clinic/service/PatientService.java,6\8\687e1bbbf1718e02ee9585a0e0b6fad5c8ef7323
 ~
 Npayment-service/src/main/java/com/SPYDER/Clinic/PaymentServiceApplication.java,8\a\8a450cccdd9b693c2c5cbb8144ee938ba70cc540
-ƒ
-Seureka-service/src/main/java/com/SPYDER/eurekaservice/EurekaServiceApplication.java,b\4\b49731ed01fbf6b4b6fe6bad2b1591fdfc8d76bf
-F
-eureka-service/pom.xml,3\e\3e68d6f421b04d410578ccc97a8773a1a687a9ec
-h
-8eureka-service/src/main/resources/application.properties,8\7\87f0876d3221db52ab32ad546583c39b6efc839c
