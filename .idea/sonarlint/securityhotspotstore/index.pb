@@ -1,6 +1,4 @@
 
-~
-Npatient-service/src/main/java/com/SPYDER/Clinic/PatientServiceApplication.java,d\f\dfe8e2ad4c648c91e5f1f628f6c6047bdfa08d9b
 {
 Kpatient-service/src/main/java/com/SPYDER/Clinic/service/PatientService.java,b\8\b806456ad7779726cd1dda02f12aba0475b90376
 ~
@@ -21,5 +19,3 @@ v
 Fdoctor-service/src/main/java/com/SPYDER/Clinic/proxy/PatientProxy.java,b\f\bfb247ee0c4aaca5694dbb8f332c996e2f2a629a
 G
 patient-service/pom.xml,6\0\6017e09cdc82b17ba9cb8d41210159d8b0da3819
-F
-eureka-service/pom.xml,3\e\3e68d6f421b04d410578ccc97a8773a1a687a9ec
