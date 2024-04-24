@@ -1,8 +1,6 @@
 
 ~
 Npatient-service/src/main/java/com/SPYDER/Clinic/PatientServiceApplication.java,d\f\dfe8e2ad4c648c91e5f1f628f6c6047bdfa08d9b
-G
-payment-service/pom.xml,2\5\25baee198b18cf264e9c0dcfc72630a226ed792c
 Å
 Qpatient-service/src/main/java/com/SPYDER/Clinic/controller/PatientController.java,9\b\9b71033f91b4d4020b52b7bac0af9a6ef9c02742
 {
