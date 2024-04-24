@@ -17,5 +17,3 @@ Qpatient-service/src/main/java/com/SPYDER/Clinic/controller/PatientController.ja
 Pdoctor-service/src/main/java/com/SPYDER/Clinic/controller/PatientController.java,4\2\42772ab5f3c0e7c7e9ab07cb1770f2223e92c3a6
 v
 Fdoctor-service/src/main/java/com/SPYDER/Clinic/proxy/PatientProxy.java,b\f\bfb247ee0c4aaca5694dbb8f332c996e2f2a629a
-G
-patient-service/pom.xml,6\0\6017e09cdc82b17ba9cb8d41210159d8b0da3819
