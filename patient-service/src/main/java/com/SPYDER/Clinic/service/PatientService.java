@@ -1,15 +1,35 @@
 package com.SPYDER.Clinic.service;
 
+import com.SPYDER.Clinic.entity.Patient;
+import com.SPYDER.Clinic.repository.PatientRepository;
+import dto.AddPatientDTO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.Arrays;
-import java.util.List;
 
 @Service
 public class PatientService {
 
-    private List<String> patient = Arrays.asList("Ahmed","Mahmoud","Mostafa","Ziad");
-    public String findPatientByName(String name) {
-        return patient.stream().filter(patient->patient.equals(name)).findAny().orElse("Patient Not Found");
+    @Autowired
+    private PatientRepository patientRepository;
+
+    public Patient add(AddPatientDTO patientDTO) {
+        Patient patient = Patient.builder().
+                name(patientDTO.getName())
+                .age(patientDTO.getAge()).
+                build();
+        return patientRepository.save(patient);
+    }
+
+    public Patient update(AddPatientDTO patientDTO) {
+        Patient patient = Patient.builder().
+                id(patientDTO.getId()).
+                name(patientDTO.getName())
+                .age(patientDTO.getAge()).
+                build();
+        return patientRepository.save(patient);
+    }
+
+    public void delete(long id) {
+        patientRepository.deleteById(id);
     }
 }
