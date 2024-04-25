@@ -1,10 +1,9 @@
 package com.SPYDER.Clinic.controller;
 
-import com.SPYDER.Clinic.entity.Patient;
+import com.SPYDER.Clinic.model.entity.Patient;
 import com.SPYDER.Clinic.service.PatientService;
-import dto.AddPatientDTO;
+import com.SPYDER.Clinic.model.dto.PatientDTO;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,14 +14,24 @@ public class PatientController {
     @Autowired
     PatientService patientService;
 
+    @GetMapping
+    public List<Patient> findAll(){
+        return patientService.findAll();
+    }
+
+    @GetMapping("/{id}")
+    public PatientDTO findById(@PathVariable long id){
+
+        return patientService.findById(id);
+    }
 
     @PostMapping
-    public Patient add(@RequestBody AddPatientDTO patientDTO){
+    public PatientDTO add(@RequestBody PatientDTO patientDTO){
         return patientService.add(patientDTO);
     }
 
     @PutMapping
-    public Patient update(@RequestBody AddPatientDTO patientDTO){
+    public PatientDTO update(@RequestBody PatientDTO patientDTO){
         return patientService.update(patientDTO);
     }
 

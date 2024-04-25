@@ -1,4 +1,4 @@
-package com.SPYDER.Clinic.entity;
+package com.SPYDER.Clinic.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
