@@ -1,18 +1,4 @@
 
-~
-Npayment-service/src/main/java/com/SPYDER/Clinic/PaymentServiceApplication.java,8\a\8a450cccdd9b693c2c5cbb8144ee938ba70cc540
-G
-payment-service/pom.xml,2\5\25baee198b18cf264e9c0dcfc72630a226ed792c
-F
-doctor-service/pom.xml,5\3\53d23c5c35ae544b1680de1130fc940227f2d4ac
-|
-Ldoctor-service/src/main/java/com/SPYDER/Clinic/DoctorServiceApplication.java,7\0\700cc1d9f94af8c7f008ca8efc9874e1dd78b3b0
-z
-Jdoctor-service/src/main/java/com/SPYDER/Clinic/service/PatientService.java,6\8\687e1bbbf1718e02ee9585a0e0b6fad5c8ef7323
-€
-Pdoctor-service/src/main/java/com/SPYDER/Clinic/controller/PatientController.java,4\2\42772ab5f3c0e7c7e9ab07cb1770f2223e92c3a6
-v
-Fdoctor-service/src/main/java/com/SPYDER/Clinic/proxy/PatientProxy.java,b\f\bfb247ee0c4aaca5694dbb8f332c996e2f2a629a
 F
 eureka-service/HELP.md,5\1\511012845b5ef1061f2fac82dbaf4879e490554b
 F
@@ -25,7 +11,5 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-~
-Npatient-service/src/main/java/com/SPYDER/Clinic/PatientServiceApplication.java,d\f\dfe8e2ad4c648c91e5f1f628f6c6047bdfa08d9b
 s
 Cpatient-service/src/main/java/com/SPYDER/Clinic/entity/Patient.java,4\e\4e6c8382fb024df6dfe1276764e319f52b067b5b
