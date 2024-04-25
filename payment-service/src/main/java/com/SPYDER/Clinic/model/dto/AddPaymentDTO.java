@@ -1,7 +1,5 @@
 package com.SPYDER.Clinic.model.dto;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,9 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PaymentDTO {
+public class AddPaymentDTO {
 
-    private String tranId;
     private double amount;
     private long patientId;
 }

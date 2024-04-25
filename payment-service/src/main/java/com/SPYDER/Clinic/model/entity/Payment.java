@@ -19,7 +19,7 @@ public class Payment {
 
     @Id
     @Column(name = "transaction_id")
-    private long tranId;
+    private String tranId;
     private double amount;
 
     @Column(name = "patient_id")

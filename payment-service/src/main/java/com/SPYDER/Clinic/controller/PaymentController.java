@@ -1,5 +1,6 @@
 package com.SPYDER.Clinic.controller;
 
+import com.SPYDER.Clinic.model.dto.AddPaymentDTO;
 import com.SPYDER.Clinic.model.dto.PaymentDTO;
 import com.SPYDER.Clinic.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,12 +13,12 @@ public class PaymentController {
     @Autowired private PaymentService paymentService;
 
     @GetMapping("/{id}")
-    public PaymentDTO findByTranId(@PathVariable long id){
+    public PaymentDTO findByTranId(@PathVariable String id){
         return paymentService.findBytTranId(id);
     }
 
     @PostMapping
-    public PaymentDTO add(@RequestBody PaymentDTO paymentDTO){
+    public PaymentDTO add(@RequestBody AddPaymentDTO paymentDTO){
         return paymentService.add(paymentDTO);
     }
 
@@ -27,7 +28,7 @@ public class PaymentController {
     }
 
     @DeleteMapping("/{id}")
-    public void delete(@PathVariable long id){
+    public void delete(@PathVariable String id){
         paymentService.delete(id);
     }
 }
