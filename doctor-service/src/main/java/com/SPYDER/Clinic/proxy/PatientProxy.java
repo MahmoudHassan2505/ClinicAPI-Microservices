@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @FeignClient(name = "patient-service")
 public interface PatientProxy {
 
-    @GetMapping("/patients/{id}")
+    @GetMapping("/{id}")
     PatientDTO findById(@PathVariable long id);
 
     @PostMapping("/patients")

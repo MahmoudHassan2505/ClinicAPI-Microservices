@@ -6,11 +6,18 @@ import com.SPYDER.Clinic.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/payments")
 public class PaymentController {
 
     @Autowired private PaymentService paymentService;
+
+    @GetMapping("/patient/{id}")
+    public List<PaymentDTO> findAllByPatientId(@PathVariable long id){
+        return paymentService.findAllByPatientId(id);
+    }
 
     @GetMapping("/{id}")
     public PaymentDTO findByTranId(@PathVariable String id){

@@ -75,7 +75,14 @@
 			<scope>provided</scope>
 		</dependency>
 		<!--/Map Struct And Lombok-->
+		<!--OpenFeign-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<version>4.1.1</version>
+		</dependency>
 
+		<!--/OpenFeign-->
 	</dependencies>
 
 	<build>

@@ -8,7 +8,9 @@ import com.SPYDER.Clinic.reposiroty.PaymentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.UUID;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 @Service
 public class PaymentService {
@@ -42,5 +44,11 @@ public class PaymentService {
 
     public PaymentDTO findBytTranId(String id){
         return paymentMapper.toDto(paymentRepository.findById(id).orElseThrow());
+    }
+
+    public List<PaymentDTO> findAllByPatientId(long id){
+        List<Payment> payments = paymentRepository.findAllByPatientId(id);
+
+        return paymentMapper.toListDto(payments);
     }
 }
