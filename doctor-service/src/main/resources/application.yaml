@@ -1,9 +1,12 @@
 server:
   port: 8000
+  servlet:
+    context-path: /doctors
 
 spring:
   application:
     name: doctor-service
+
 
 #Register our service to eureka server
 eureka:

@@ -50,6 +50,13 @@
 			<version>4.1.1</version>
 		</dependency>
 		<!--/Eureka Server-->
+		<!--Configure Spring Cloud Gateway-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-gateway</artifactId>
+			<version>4.1.3</version>
+		</dependency>
+		<!--/Configure Spring Cloud Gateway-->
 	</dependencies>
 
 	<build>

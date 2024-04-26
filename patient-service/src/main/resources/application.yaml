@@ -17,6 +17,8 @@ spring:
 #Change Default port
 server:
   port: 9000
+  servlet:
+    context-path: /patients
 
 #Register our service to eureka server
 eureka:
