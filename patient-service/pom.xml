@@ -81,8 +81,14 @@
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 			<version>4.1.1</version>
 		</dependency>
-
 		<!--/OpenFeign-->
+		<!--Admin client-->
+		<dependency>
+			<groupId>de.codecentric</groupId>
+			<artifactId>spring-boot-admin-starter-client</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+		<!--/Admin client-->
 	</dependencies>
 
 	<build>

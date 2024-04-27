@@ -1,6 +1,17 @@
 spring:
   application:
     name: eureka-service
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888 # Register Admin Server
+
+#expose helper endpoints for admin server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 server:
   port: 8761

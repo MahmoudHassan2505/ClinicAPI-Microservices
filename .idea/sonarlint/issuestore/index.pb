@@ -3,8 +3,6 @@
 Npayment-service/src/main/java/com/SPYDER/Clinic/PaymentServiceApplication.java,8\a\8a450cccdd9b693c2c5cbb8144ee938ba70cc540
 ~
 Npatient-service/src/main/java/com/SPYDER/Clinic/PatientServiceApplication.java,d\f\dfe8e2ad4c648c91e5f1f628f6c6047bdfa08d9b
-C
-api-gateway/pom.xml,2\b\2bfa2b108f2439e99e004f4085b58c22cf995f73
 €
 Pdoctor-service/src/main/java/com/SPYDER/Clinic/controller/PaymentController.java,a\b\ab067d06ee731ed956e19c029acabfbfbfc1b463
 €

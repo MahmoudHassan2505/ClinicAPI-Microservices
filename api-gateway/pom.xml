@@ -57,6 +57,13 @@
 			<version>4.1.3</version>
 		</dependency>
 		<!--/Configure Spring Cloud Gateway-->
+		<!--Admin client-->
+		<dependency>
+			<groupId>de.codecentric</groupId>
+			<artifactId>spring-boot-admin-starter-client</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+		<!--/Admin client-->
 	</dependencies>
 
 	<build>

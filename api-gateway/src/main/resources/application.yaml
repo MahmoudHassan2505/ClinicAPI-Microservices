@@ -3,13 +3,23 @@ spring:
     name: api-gateway
   main:
     web-application-type: reactive # to solve conflict between Spring Web and Cloud Gateway
-
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888 # Register Admin Server
   cloud:
     gateway:
       discovery:
         locator:
           enabled: true
           lower-case-service-id: true #
+
+#expose helper endpoints for admin server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 
 server:

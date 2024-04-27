@@ -1,6 +1,10 @@
 spring:
   application:
     name: payment-service
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888 # Register Admin Server
 
   datasource:
     url: jdbc:h2:file:./database/payment_db
@@ -24,3 +28,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+#Expose helper endpoints for admin Server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
