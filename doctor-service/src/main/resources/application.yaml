@@ -6,6 +6,17 @@ server:
 spring:
   application:
     name: doctor-service
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888 # Register Admin Server
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 
 
 #Register our service to eureka server

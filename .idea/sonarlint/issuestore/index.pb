@@ -1,6 +1,4 @@
 
-|
-Leureka-service/src/main/java/com/SPYDER/Clinic/EurekaServiceApplication.java,0\4\0487b381661185fdc50b8c399596b44b0d5b8ba0
 ~
 Npayment-service/src/main/java/com/SPYDER/Clinic/PaymentServiceApplication.java,8\a\8a450cccdd9b693c2c5cbb8144ee938ba70cc540
 ~
